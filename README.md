@@ -2,11 +2,17 @@
 
 Name: [Abaz Barami]
 
+## Overview
+
 ### Features.
-+ Feature 1 - You can dislike Movies and view them on Disliked Movies Page
-+ Feature 2 - A popular movies page
-+ Feature 3 - A Top Rated Movies Page
-+ Feature 4 - A Now Playing Movies Page
++ Favorite Movies Page
++ Disliked Movies Page
++ Popular Movies Page
++ Top Rated Movies Page
++ Now Playing Movie Page
++ Sign up and Login
++ Search and GenreFilter
++ Movie Details
 
 ## Setup requirements.
 
@@ -18,30 +24,67 @@ Name: [Abaz Barami]
 + https://api.themoviedb.org/3/movie/now_playing   - gets list of now playing movies
 
 ### UI Design.
-The following Image is the Popular movies page. The home page is the same as this one, bar only a few movies listed near the end. 
-![](./src/images/PopularMovies.JPG)
+>Discover Movies - Shows the movies
 
+![](./src/images/DiscoverMovies.PNG)
 
-This is the disliked movies page. When you dislike a movie, it gets added to this page. You can also undislike movies.
-![ ](./src/images/DislikedMovies.JPG)
+>Popular Movies - Shows the current most popular films
 
+![](./src/images/Popular.PNG)
 
-This is the top rated movies.
-![ ](./src/images/TopRated.JPG)
+>Top Rated Movies - Shows the top rated movies
 
-This is the now playing movies.
-![ ](./src/images/NowPlaying.JPG)
+![](./src/images/TopMovies.PNG)
+
+>Favorite Movies - Shows your favorite movies
+
+![](./src/images/Favorites.PNG)
+
+>Disliked Movies - You can dislike Movies andyou can view them on this page
+
+![](./src/images/Disliked.PNG)
+
+>Now Playing Movies
+
+![](./src/images/NowPlaying.PNG)
+
+>Login
+
+![](./src/images/LoginPage.PNG)
+
+>Sign up
+
+![](./src/images/SignUpPage.PNG)
+
+>Search Filter for Movies
+
+![](./src/images/FilterMovies.PNG)
+
+>Genre Filter for Movies
+
+![](./src/images/GenreFilter.PNG)
+
+>Movie Details
+
+![](./src/images/MovieDetails.PNG)
+
 
 
 ### Routing.
 
 [ List the __new routes__ supported by your app and state the associated page.]
 
-N/A
-[If relevant, state what aspects of your app are protected (i.e. require authentication) and what is public.]
++ /movies/topMovies - displays top movies (private route
++ /movies/nowPlayMovie - displays now playing movies (private route)
++ /movies/disliked - displays movies you dislike
++ /login - you have to login to see movies
++ /signup - you need to sign up for an account
+
 
 ## Independent learning (If relevant).
 
 [ Itemize the technologies/techniques you researched independently and adopted in your project, i.e. aspects not covered in the lectures/labs. Include the source code filenames that illustrate these (we do not require code excerpts) and provide references to the online resources that helped you (articles/blogs).
 
-N/A
++ https://developers.themoviedb.org/3/getting-started/introduction
++ https://thecuriouscorp.com/react-login-page/
++ https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications
